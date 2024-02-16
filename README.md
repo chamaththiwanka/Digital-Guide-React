@@ -2,8 +2,24 @@
 
 Welcome to the repository of Digital Guide, a dynamic web application built with React, utilizing the power of TeleportHQ for design and architecture. This project showcases a seamless integration of design and development to create an engaging user experience.
 
-https://img.shields.io/badge/Features-of_Project
 
+_Call-to-Action buttons_
+
+<div align="center">
+
+
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://chamaththiwanka.github.io/Digital-Guide-React/)
+
+</div>
+
+## Documentation
+
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+
+</div>
     Responsive web design
     Modern UI/UX with React
     Customized webpack configuration via craco.config.js
