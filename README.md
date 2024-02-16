@@ -1,3 +1,5 @@
+
+<div style="padding-top: 20px; padding-right: 20px;">
 <div align="center">
    <br><br>
 <img src="https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/SVG.svg" alt="Alt Text" width="800"/>
@@ -101,7 +103,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [![stars - Digital-Guide-React](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![forks - Digital-Guide-React](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 
-</div>
+</div></div>
 
 
 
