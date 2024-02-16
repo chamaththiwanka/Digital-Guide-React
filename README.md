@@ -1,4 +1,5 @@
 <div align="center">
+   <br><br>
 <img src="https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/SVG.svg" alt="Alt Text" width="800"/>
 <br><br><br>
 
