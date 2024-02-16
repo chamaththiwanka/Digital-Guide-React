@@ -2,6 +2,9 @@
 
 # 🌐 Digital Guide - React Web Application
 
+![Alt Text](https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/black bg copy.png)
+
+
 ![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge&logo=react)
 [![Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge&logo=read-the-docs)](/docs/)
 ![GitHub stars](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)
