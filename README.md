@@ -2,7 +2,7 @@
 
 # 🌐 Digital Guide - React Web Application
 
-![Alt Text](https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/logo.png)
+<img src="https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/logo.png" alt="Alt Text" width="200"/>
 
 
 ![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge&logo=react)
