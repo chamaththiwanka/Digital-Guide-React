@@ -21,6 +21,7 @@ Welcome to the repository of **Digital Guide**, a dynamic web application built 
 </div>
 
 ---
+<br><br>
 
 ## 📖 Documentation
 
@@ -32,19 +33,26 @@ Explore the comprehensive documentation to get started and learn more about the 
 
 </div>
 <div style="margin-bottom: 40px; margin: 40px;">
+   <br>
+<br>
+
 ## 🌟 Features
 
 - **Responsive Web Design**: Ensures a seamless user experience across all device sizes.
 - **Modern UI/UX with React**: Leverages React's component-based architecture for a dynamic and responsive UI.
 - **Custom Webpack Configuration**: Utilizes `craco.config.js` for customized build configurations without ejecting from Create React App.
 - **Deployment**: Smoothly deployed on GitHub Pages, showcasing real-world application of the project.
+<br>
+<br>
 
 ## 🚀 Getting Started
+<br>
 
 ### Prerequisites
 
 - **Node.js** (version 12.x or later)
 - **npm** (version 6.x or later)
+<br>
 
 ### Installation
 
@@ -67,6 +75,8 @@ Explore the comprehensive documentation to get started and learn more about the 
    ```sh
    npm start
    ```
+<br>
+<br>
 
 ## 🚀 Running the Application
 
@@ -75,11 +85,13 @@ To run the app in development mode, execute the following command and open [http
 ```sh
 npm start
 ```
+<br>
 
 ## 🛠 Built With
 
 - **React**: A JavaScript library for building user interfaces.
 - **CRACO (Create React App Configuration Override)**: An easy and comprehensible configuration layer for Create React App.
+<br>
 
 ## 🤝 Contributing
 
@@ -90,10 +102,14 @@ Contributions are what make the open-source community a place to learn, inspire,
 3. **Commit your Changes**: `git commit -m 'Add some AmazingFeature'`
 4. **Push to the Branch**: `git push origin feature/AmazingFeature`
 5. **Open a Pull Request**
+<br>
 
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+<br>
+<br>
+<br>
 
 ## 📬 Contact
 
@@ -106,6 +122,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [![chamaththiwanka - Digital-Guide-React](https://img.shields.io/static/v1?label=chamaththiwanka&message=Digital-Guide-React&color=blue&logo=github)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![stars - Digital-Guide-React](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![forks - Digital-Guide-React](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
+<br>
+<br>
+<br>
 
 </div>
 
