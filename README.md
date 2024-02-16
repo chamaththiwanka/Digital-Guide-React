@@ -1,85 +1,104 @@
-# Digital Guide - React Web Application
+<div align="center">
 
-Welcome to the repository of Digital Guide, a dynamic web application built with React, utilizing the power of TeleportHQ for design and architecture. This project showcases a seamless integration of design and development to create an engaging user experience.
+# 🌐 Digital Guide - React Web Application
 
+![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge&logo=react)
+[![Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge&logo=read-the-docs)](/docs/)
+![GitHub stars](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)
+![GitHub forks](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)
 
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://github.com/chamaththiwanka/Digital-Guide-React)
+Welcome to the repository of **Digital Guide**, a dynamic web application built with React, utilizing the power of TeleportHQ for design and architecture. This project showcases a seamless integration of design and development to create an engaging user experience.
 
 </div>
 
-## Documentation
+---
+
+## 📖 Documentation
 
 <div align="center">
+
+Explore the comprehensive documentation to get started and learn more about the project's architecture and components.
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
 </div>
-    Responsive web design
-    Modern UI/UX with React
-    Customized webpack configuration via craco.config.js
-    Deployed on GitHub Pages/other (specify the hosting platform)
 
-Getting Started
+## 🌟 Features
 
-Prerequisites
+- **Responsive Web Design**: Ensures a seamless user experience across all device sizes.
+- **Modern UI/UX with React**: Leverages React's component-based architecture for a dynamic and responsive UI.
+- **Custom Webpack Configuration**: Utilizes `craco.config.js` for customized build configurations without ejecting from Create React App.
+- **Deployment**: Smoothly deployed on GitHub Pages, showcasing real-world application of the project.
 
-Ensure you have the following installed:
+## 🚀 Getting Started
 
-    Node.js (version 12.x or later)
-    npm (version 6.x or later)
+### Prerequisites
 
-Installation
+- **Node.js** (version 12.x or later)
+- **npm** (version 6.x or later)
 
-    Clone the repository:
+### Installation
 
-    sh
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/chamaththiwanka/Digital-Guide-React.git
+   ```
+   
+2. **Navigate to the project directory:**:
+   ```sh
+   cd Digital-Guide-React
+   ```
+   
+3. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+   
+4. **Start the development server**:
+   ```sh
+   npm start
+   ```
 
-git clone https://github.com/yourusername/your-repo-name.git
+## 🚀 Running the Application
 
-Navigate to the project directory:
+To run the app in development mode, execute the following command and open [http://localhost:3000](http://localhost:3000) in your browser:
 
-sh
+```sh
+npm start
+```
 
-cd your-repo-name
+## 🛠 Built With
 
-Install dependencies:
+- **React**: A JavaScript library for building user interfaces.
+- **CRACO (Create React App Configuration Override)**: An easy and comprehensible configuration layer for Create React App.
 
-sh
+## 🤝 Contributing
 
-npm install
+Contributions are what make the open-source community a place to learn, inspire, and create. Your contributions are greatly appreciated. Follow these steps to contribute:
 
-Start the development server:
+1. **Fork the Project**
+2. **Create your Feature Branch**: `git checkout -b feature/AmazingFeature`
+3. **Commit your Changes**: `git commit -m 'Add some AmazingFeature'`
+4. **Push to the Branch**: `git push origin feature/AmazingFeature`
+5. **Open a Pull Request**
 
-sh
+## 📝 License
 
-    npm start
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-    This runs the app in development mode. Open http://localhost:3000 to view it in your browser.
+## 📬 Contact
 
-Built With
+- **Your Name**: chamaththiwanka
+- **Project Link**: [Digital-Guide-React](https://github.com/chamaththiwanka/Digital-Guide-React)
 
-    React - A JavaScript library for building user interfaces
-    CRACO (Create React App Configuration Override) - An easy and comprehensible configuration layer for Create React App
+<div align="center">
 
-Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-    Fork the Project
-    Create your Feature Branch (git checkout -b feature/AmazingFeature)
-    Commit your Changes (git commit -m 'Add some AmazingFeature')
-    Push to the Branch (git push origin feature/AmazingFeature)
-    Open a Pull Request
-
-License
-
-Distributed under the MIT License. See LICENSE for more information.
-Contact
-
-Your Name - chamaththiwanka
-Project Link: https://github.com/chamaththiwanka/Digital-Guide-React/
-
-[![chamaththiwanka - Digital-Guide-React](https://img.shields.io/static/v1?label=chamaththiwanka&message=Digital-Guide-React&color=blue&logo=github)](https://github.com/chamaththiwanka/Digital-Guide-React "Go to GitHub repo")
+[![chamaththiwanka - Digital-Guide-React](https://img.shields.io/static/v1?label=chamaththiwanka&message=Digital-Guide-React&color=blue&logo=github)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![stars - Digital-Guide-React](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![forks - Digital-Guide-React](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
+
+</div>
+
+
+
 
