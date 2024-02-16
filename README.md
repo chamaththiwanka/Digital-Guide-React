@@ -1,12 +1,15 @@
 
 <div style="padding-top: 60px; padding-right: 60px;">
 <div align="center">
-   <br><br>
+
+   
+   
 <img src="https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/SVG.svg" alt="Alt Text" width="800"/>
 <br><br><br>
 
 # 🌐 Digital Guide - React Web Application
-<br><br>
+
+
 
 ![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge&logo=react)
 [![Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge&logo=read-the-docs)](/docs/)
