@@ -1,12 +1,6 @@
-###Digital Guide - React Web Application
+#Digital Guide - React Web Application
 
 Welcome to the repository of Digital Guide, a dynamic web application built with React, utilizing the power of TeleportHQ for design and architecture. This project showcases a seamless integration of design and development to create an engaging user experience.
-
-
-_Call-to-Action buttons_
-
-<div align="center">
-
 
 
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://github.com/chamaththiwanka/Digital-Guide-React)
