@@ -13,11 +13,9 @@
 <br>
 
 
-![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge&logo=react)
 [![Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge&logo=read-the-docs)](/docs/)
 ![GitHub stars](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)
-<br>
 <br>
 
 Welcome to the repository of **Digital Guide**, a dynamic web application built with React, utilizing the power of TeleportHQ for design and architecture. This project showcases a seamless integration of design and development to create an engaging user experience.
@@ -27,7 +25,6 @@ Welcome to the repository of **Digital Guide**, a dynamic web application built 
 </div>
 
 ---
-<br><br>
 
 ## 📖 Documentation
 
@@ -39,7 +36,6 @@ Explore the comprehensive documentation to get started and learn more about the 
 
 </div>
 <div style="margin-bottom: 40px; margin: 40px;">
-   <br>
 <br>
 
 ## 🌟 Features
@@ -48,7 +44,6 @@ Explore the comprehensive documentation to get started and learn more about the 
 - **Modern UI/UX with React**: Leverages React's component-based architecture for a dynamic and responsive UI.
 - **Custom Webpack Configuration**: Utilizes `craco.config.js` for customized build configurations without ejecting from Create React App.
 - **Deployment**: Smoothly deployed on GitHub Pages, showcasing real-world application of the project.
-<br>
 <br>
 
 ## 🚀 Getting Started
