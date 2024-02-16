@@ -1,5 +1,5 @@
 
-<div style="padding-top: 20px; padding-right: 20px;">
+<div style="padding-top: 60px; padding-right: 60px;">
 <div align="center">
    <br><br>
 <img src="https://raw.githubusercontent.com/chamaththiwanka/Digital-Guide-React/main/SVG.svg" alt="Alt Text" width="800"/>
