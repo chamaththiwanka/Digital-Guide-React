@@ -9,7 +9,7 @@ _Call-to-Action buttons_
 
 
 
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://chamaththiwanka.github.io/Digital-Guide-React/)
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://github.com/chamaththiwanka/Digital-Guide-React)
 
 </div>
 
