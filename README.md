@@ -1,5 +1,5 @@
 
-<div align="center" style="margin-bottom: 20px; margin: 20px;">
+<div align="center" style="margin-bottom: 40px; margin: 40px;">
 
 
 
@@ -24,14 +24,14 @@ Welcome to the repository of **Digital Guide**, a dynamic web application built 
 
 ## 📖 Documentation
 
-<div align="center" style="margin-bottom: 20px; margin: 20px;">
+<div align="center" style="margin-bottom: 40px; margin: 40px;">
 
 Explore the comprehensive documentation to get started and learn more about the project's architecture and components.
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
 
 </div>
-<div style="margin-bottom: 20px; margin: 20px;">
+<div style="margin-bottom: 40px; margin: 40px;">
 ## 🌟 Features
 
 - **Responsive Web Design**: Ensures a seamless user experience across all device sizes.
@@ -107,7 +107,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 [![stars - Digital-Guide-React](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 [![forks - Digital-Guide-React](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
 
-</div></div>
+</div>
 
 
 
