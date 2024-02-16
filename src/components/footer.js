@@ -1,39 +1,43 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 import './footer.css'
 
 const Footer = (props) => {
   return (
-    <footer className="footer-footer">
+    <footer className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-container">
         <div className="footer-container1">
-          <span className="footer-text">SOFT</span>
-          <span>Copyright © 2021 Soft by Creative Tim.</span>
+          <img
+            src={props.imageSrc}
+            alt={props.imageAlt}
+            className="footer-image"
+          />
         </div>
-        <div className="footer-container2">
-          <div className="footer-container3">
-            <span className="footer-text02 Large">Company</span>
-            <span className="footer-text03 Large">About Us</span>
-            <span className="footer-text04 Large">Careers</span>
-            <span className="footer-text05 Large">Press</span>
-          </div>
-          <div className="footer-container4">
-            <span className="footer-text06 Large">Pages</span>
-            <span className="footer-text07 Large">Login</span>
-            <span className="footer-text08 Large">Register</span>
-            <span className="footer-text09 Large">About</span>
-          </div>
-          <div className="footer-container5">
-            <span className="footer-text10 Large">Products</span>
-            <span className="footer-text11 Large">Free</span>
-            <span className="footer-text12 Large">PRO</span>
-            <span className="footer-text13 Large">Latest</span>
-          </div>
-        </div>
+        <span className="footer-text">{props.text}</span>
       </div>
-      <img alt="image" src="/waves-white.svg" className="footer-image" />
     </footer>
   )
+}
+
+Footer.defaultProps = {
+  rootClassName: '',
+  imageSrc: '/My uploads/looooogo.svg',
+  imageAlt: 'image',
+  text: 'Copyright © 2024 Digital Guide',
+  imageSrc1:
+    'https://images.unsplash.com/photo-1603118675111-239b194fb8d8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIwMnx8cHVycGxlfGVufDB8fHx8MTcwODEyMjI0OXww&ixlib=rb-4.0.3&w=200',
+  imageAlt1: 'image',
+}
+
+Footer.propTypes = {
+  rootClassName: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
+  text: PropTypes.string,
+  imageSrc1: PropTypes.string,
+  imageAlt1: PropTypes.string,
 }
 
 export default Footer
