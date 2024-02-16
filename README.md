@@ -68,3 +68,8 @@ Contact
 
 Your Name - chamaththiwanka
 Project Link: https://github.com/chamaththiwanka/Digital-Guide-React/
+
+[![chamaththiwanka - Digital-Guide-React](https://img.shields.io/static/v1?label=chamaththiwanka&message=Digital-Guide-React&color=blue&logo=github)](https://github.com/chamaththiwanka/Digital-Guide-React "Go to GitHub repo")
+[![stars - Digital-Guide-React](https://img.shields.io/github/stars/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
+[![forks - Digital-Guide-React](https://img.shields.io/github/forks/chamaththiwanka/Digital-Guide-React?style=social)](https://github.com/chamaththiwanka/Digital-Guide-React)
+
