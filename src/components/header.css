@@ -213,6 +213,12 @@
   text-transform: none;
   text-decoration: none;
 }
+.header-link1 {
+  display: contents;
+}
+.header-component1 {
+  text-decoration: none;
+}
 .header-header1 {
   top: 19px;
   left: 0px;
@@ -242,6 +248,10 @@
   min-width: auto;
 }
 
+.header-root-class-name2 {
+  max-width: auto;
+  min-width: auto;
+}
 @media(max-width: 1200px) {
   .header-nav {
     height: 7vh;

@@ -46,6 +46,9 @@
   background-color: rgba(14, 14, 14, 0.41);
 }
 
+.footer-root-class-name2 {
+  background-color: rgba(14, 14, 14, 0.41);
+}
 @media(max-width: 1200px) {
   .footer-image {
     margin-left: var(--dl-space-space-halfunit);

@@ -66,17 +66,19 @@ const Header = (props) => {
           <Link to="/coming-soon" className="header-navlink5">
             Why choose us?
           </Link>
-          <Link to="/coming-soon" className="header-navlink6">
+          <Link to="/plans" className="header-navlink6">
             Plans for you!
           </Link>
           <Link to="/connect" className="header-navlink7">
             Connect
           </Link>
-          <PrimaryPinkButton
-            button="Start now!"
-            rootClassName="primary-pink-button-root-class-name"
-            className=""
-          ></PrimaryPinkButton>
+          <a href="tel:+94 78 303 6891" className="header-link1">
+            <PrimaryPinkButton
+              button="Start now!"
+              rootClassName="primary-pink-button-root-class-name"
+              className="header-component1"
+            ></PrimaryPinkButton>
+          </a>
         </div>
       </nav>
       <header data-role="Header" className="header-header1">

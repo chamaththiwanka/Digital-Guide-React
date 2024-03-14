@@ -20,11 +20,15 @@
 }
 
 
+
 @media(max-width: 767px) {
   .outline-gray-button-root-class-name {
     display: none;
   }
   .outline-gray-button-root-class-name1 {
+    display: none;
+  }
+  .outline-gray-button-root-class-name2 {
     display: none;
   }
 }
@@ -33,6 +37,9 @@
     align-self: center;
   }
   .outline-gray-button-root-class-name1 {
+    align-self: center;
+  }
+  .outline-gray-button-root-class-name2 {
     align-self: center;
   }
 }

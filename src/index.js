@@ -11,6 +11,7 @@ import './style.css'
 import ComingSoon from './views/coming-soon'
 import Connect from './views/connect'
 import Home from './views/home'
+import Plans from './views/plans'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route component={ComingSoon} exact path="/coming-soon" />
         <Route component={Connect} exact path="/connect" />
         <Route component={Home} exact path="/" />
+        <Route component={Plans} exact path="/plans" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
