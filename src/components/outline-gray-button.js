@@ -6,7 +6,7 @@ import './outline-gray-button.css'
 
 const OutlineGrayButton = (props) => {
   return (
-    <div className="outline-gray-button-container">
+    <div className={`outline-gray-button-container ${props.rootClassName} `}>
       <button className="outline-gray-button-button button ButtonSmall">
         {props.button}
       </button>
@@ -15,10 +15,12 @@ const OutlineGrayButton = (props) => {
 }
 
 OutlineGrayButton.defaultProps = {
+  rootClassName: '',
   button: 'Button',
 }
 
 OutlineGrayButton.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
 }
 

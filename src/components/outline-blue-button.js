@@ -6,19 +6,19 @@ import './outline-blue-button.css'
 
 const OutlineBlueButton = (props) => {
   return (
-    <div className="outline-blue-button-container">
-      <button className="outline-blue-button-button button ButtonSmall">
-        {props.button}
-      </button>
+    <div className={`outline-blue-button-container ${props.rootClassName} `}>
+      <button className="outline-blue-button-button">{props.button}</button>
     </div>
   )
 }
 
 OutlineBlueButton.defaultProps = {
+  rootClassName: '',
   button: 'Button',
 }
 
 OutlineBlueButton.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
 }
 

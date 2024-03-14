@@ -1,0 +1,33 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-component-text {
+  color: var(--dl-color-gray-shadedwhite);
+  width: 80%;
+  margin: 0 auto;
+  opacity: 00;
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.app-component-container1 {
+  color: var(--dl-color-gray-shadedwhite);
+  width: 80%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  margin: 0 auto;
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-secondary-700);
+}
+

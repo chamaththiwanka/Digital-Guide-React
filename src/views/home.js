@@ -1,12 +1,11 @@
 import React from 'react'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import PrimaryPinkButton from '../components/primary-pink-button'
 import OutlineGrayButton from '../components/outline-gray-button'
-import FeatureCard from '../components/feature-card'
-import OutlineBlackButton from '../components/outline-black-button'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -30,125 +29,693 @@ const Home = (props) => {
         />
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
-      <div className="home-hero">
+      <div id="top" className="home-hero">
         <div className="home-container01">
-          <div className="home-card">
-            <h1 className="home-text HeadingOne">Beyond Pixels &amp; Code</h1>
-            <h1 className="home-text001">Dreams in Digital World!</h1>
-            <span className="home-text002">
-              <span className="home-text003">
-                Dive into a world where
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+          <div className="home-container02">
+            <div className="home-card">
+              <h1 className="home-text">Embark On Digital Flight, </h1>
+              <h1 className="home-text001">Bloom In Pixel Bright!</h1>
+              <span className="home-text002">
+                <span className="home-text003">Welcome to Digital Guide!</span>
+                <span className="home-text004">
+                  {' '}
+                  Let&apos;s dive into a world where
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text005">creativity</span>
+                <span className="home-text006">
+                  {' '}
+                  merges with digital precision,
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text007">
+                  turning your
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text008">
+                  dreams into vibrant realities!
+                </span>
+                <span className="home-text009"> </span>
+                <span className="home-text010">
+                  In here,
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text011">
+                  every pixel tells a
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text012">story</span>
+                <span className="home-text013">,</span>
+                <span className="home-text014">
+                  {' '}
+                  and every line of code is a
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text015">
+                  step towards
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text016">your vision coming to life</span>
+                <span className="home-text017">.</span>
+                <br></br>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span>
+                  Feel free to proceed to next step for the comprehensive
+                  process.
+                </span>
+                <br></br>
               </span>
-              <span className="home-text004">creativity</span>
-              <span className="home-text005">
-                {' '}
-                merges with digital precision,
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text006">
-                turning your
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text007">
-                dreams into vibrant realities
-              </span>
-              <span className="home-text008">.</span>
-              <span className="home-text009">
-                {' '}
-                Here,
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text010">
-                every pixel tells a
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text011">story</span>
-              <span className="home-text012">
-                , and every line of code is a
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text013">
-                step towards
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text014">your vision coming to life</span>
-              <span className="home-text015">.</span>
-            </span>
-            <div className="home-container02">
               <div className="home-container03">
-                <PrimaryPinkButton button="contact us"></PrimaryPinkButton>
+                <div className="home-container04">
+                  <a href="#features" className="home-link">
+                    <PrimaryPinkButton
+                      button="Scroll to Next"
+                      className="home-component1"
+                    ></PrimaryPinkButton>
+                  </a>
+                </div>
+                <OutlineGrayButton
+                  button="Find more"
+                  rootClassName="outline-gray-button-root-class-name"
+                ></OutlineGrayButton>
               </div>
-              <OutlineGrayButton button="read more"></OutlineGrayButton>
             </div>
           </div>
         </div>
-        <img alt="image" src="/curved6-1500w.jpg" className="home-image" />
       </div>
-      <section className="home-features">
-        <FeatureCard
-          text="Custom-fit web solutions that highlight your unique brand and goals."
-          title="Components"
-          newProp="Tailored Digital Experiences"
-          imageSrc="/cube1.svg"
-          rootClassName="feature-card-root-class-name"
-        ></FeatureCard>
-        <FeatureCard
-          text="Advanced tools and methods to keep you ahead in the digital game."
-          newProp="Cutting-Edge    Technologies"
-          imageSrc="/rocket1.svg"
-          rootClassName="feature-card-root-class-name1"
-        ></FeatureCard>
-        <FeatureCard
-          text="Uninterrupted, personalized assistance ensuring your digital success."
-          title="Less Code"
-          newProp="Seamless Customer    Support"
-          imageSrc="/person1.svg"
-          rootClassName="feature-card-root-class-name2"
-        ></FeatureCard>
-        <FeatureCard
-          text="Continuous guidance and strategies for enduring online success."
-          title="Fully Responsive"
-          newProp="Strategic Growth Support"
-          imageSrc="/credit%20card1.svg"
-          rootClassName="feature-card-root-class-name3"
-        ></FeatureCard>
+      <section className="home-empty"></section>
+      <section id="features" className="home-features">
+        <div className="home-container05">
+          <div className="home-container06">
+            <div className="home-container07">
+              <h1 className="home-text023">From Concepts To Code</h1>
+              <h1 className="home-text024">Our Journey Unfolds</h1>
+            </div>
+            <span className="home-text025">
+              <span className="home-text026">
+                Our process
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text027">merges design and function</span>
+              <span className="home-text028">
+                {' '}
+                in a graceful dance, ensuring
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text029">
+                each pixel
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text030">captures</span>
+              <span className="home-text031"> your vision</span>
+              <span className="home-text032">
+                {' '}
+                and
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text033">each interaction</span>
+              <span className="home-text034"> flows effortlessly</span>
+              <span className="home-text035">
+                .
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br className="home-text036"></br>
+              <span className="home-text037">
+                Brace yourself for a
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text038">delightful reveal</span>
+              <span className="home-text039">
+                {' '}
+                of the initial designs -
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text040">your dream</span>
+              <span className="home-text041">
+                {' '}
+                is about to
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text042">take shape</span>
+              <span className="home-text043">
+                ,
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text044">simply</span>
+              <span className="home-text045">
+                {' '}
+                and
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text046">beautifully!</span>
+              <br></br>
+            </span>
+          </div>
+          <div className="home-container08">
+            <div>
+              <div className="home-container10">
+                <Script
+                  html={`<html>
+    <head>
+<style>
+.card {
+  width: 100%;
+  max-width: 230px;
+  min-width: 200px;
+  height: 260px;
+  
+  background-color: #292929;
+  margin: 40px;
+    border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon svg {
+  fill: white;
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+</style>
+    </head>
+<div class="card">
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#7eaaff"></stop>
+        <stop offset="95%" stop-color="#ff48fb"></stop>
+      </linearGradient>
+      <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+  </div>
+  <p class="title">Discovery<br>Phase</p>
+  <p class="text">Understanding vision and goals.</p>
+</div>
+
+</html>`}
+                ></Script>
+              </div>
+            </div>
+            <div>
+              <div className="home-container12">
+                <Script
+                  html={`<html>
+    <head>
+<style>
+.card {
+  width: 100%;
+  max-width: 230px;
+  min-width: 200px;
+  height: 260px;
+  
+  background-color: #292929;
+  margin: 40px;
+    border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon svg {
+  fill: white;
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+</style>
+    </head>
+<div class="card">
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#7eaaff"></stop>
+        <stop offset="95%" stop-color="#ff48fb"></stop>
+      </linearGradient>
+      <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+  </div>
+  <p class="title">Design<br>Process</p>
+  <p class="text">Collaborative, engaging creation.</p>
+</div>
+
+</html>`}
+                ></Script>
+              </div>
+            </div>
+            <div>
+              <div className="home-container14">
+                <Script
+                  html={`<html>
+    <head>
+<style>
+.card {
+  width: 100%;
+  max-width: 230px;
+  min-width: 200px;
+  height: 260px;
+  background-color: #292929;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon svg {
+  fill: white;
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+</style>
+    </head>
+<div class="card">
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#7eaaff"></stop>
+        <stop offset="95%" stop-color="#ff48fb"></stop>
+      </linearGradient>
+      <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+  </div>
+  <p class="title">Deployment<br>Stage</p>
+  <p class="text">Launching and supporting growth.</p>
+</div>
+
+</html>`}
+                ></Script>
+              </div>
+            </div>
+            <div>
+              <div className="home-container16">
+                <Script
+                  html={`<html>
+    <head>
+<style>
+.card {
+  width: 100%;
+  max-width: 230px;
+  min-width: 200px;
+  height: 260px;
+  background-color: #292929;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon svg {
+  fill: white;
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+</style>
+    </head>
+<div class="card">
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="38px" width="38px" version="1.1" id="heart" viewBox="0 0 471.701 471.701" xml:space="preserve">
+      <linearGradient id="gradientColor">
+        <stop offset="5%" stop-color="#7eaaff"></stop>
+        <stop offset="95%" stop-color="#ff48fb"></stop>
+      </linearGradient>
+      <g>
+        <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"></path>
+      </g>
+    </svg>
+  </div>
+  <p class="title">Revision &<br>Optimization</p>
+  <p class="text">Continuous refinement and enhancement.</p>
+</div>
+
+</html>`}
+                ></Script>
+              </div>
+            </div>
+          </div>
+          <section className="home-empty1">
+            <a href="#test" className="home-link1">
+              <PrimaryPinkButton
+                button="Scroll to Next"
+                rootClassName="primary-pink-button-root-class-name2"
+                className="home-component3"
+              ></PrimaryPinkButton>
+            </a>
+          </section>
+        </div>
       </section>
-      <section className="home-testimonials">
-        <div className="home-container04">
-          <div className="home-container05">
-            <h2 className="home-text016">A Website is an Investment</h2>
-            <p className="home-text017">
-              <span className="home-text018">Transparent &amp; Reliable</span>
-              <span className="home-text019">
+      <section id="test" className="home-testimonials">
+        <div className="home-container17">
+          <div className="home-container18">
+            <h2 className="home-text048">A Website is an Investment</h2>
+            <p className="home-text049">
+              <span className="home-text050">Transparent &amp; Reliable</span>
+              <span className="home-text051">
                 {' '}
                 pricing plans for
                 <span
@@ -157,10 +724,10 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text020">EFFECTIVE BUSINESS Growth</span>
+              <span className="home-text052">EFFECTIVE BUSINESS Growth</span>
             </p>
-            <p className="home-text021">
-              <span className="home-text022">
+            <p className="home-text053">
+              <span className="home-text054">
                 Each plan is an
                 <span
                   dangerouslySetInnerHTML={{
@@ -168,8 +735,8 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text023">investment</span>
-              <span className="home-text024">
+              <span className="home-text055">investment</span>
+              <span className="home-text056">
                 {' '}
                 in
                 <span
@@ -178,8 +745,8 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text025">your brand’s future</span>
-              <span className="home-text026">
+              <span className="home-text057">your brand’s future</span>
+              <span className="home-text058">
                 , designed to offer scalable
                 <span
                   dangerouslySetInnerHTML={{
@@ -187,8 +754,8 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text027">solutions</span>
-              <span className="home-text028">
+              <span className="home-text059">solutions</span>
+              <span className="home-text060">
                 {' '}
                 as you
                 <span
@@ -197,8 +764,8 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text029">grow</span>
-              <span className="home-text030">
+              <span className="home-text061">grow</span>
+              <span className="home-text062">
                 {' '}
                 and with each plan we
                 <span
@@ -207,83 +774,89 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text031">guarantee you highest </span>
-              <span className="home-text032">ROI</span>
-              <span className="home-text033">! </span>
+              <span className="home-text063">guarantee you highest </span>
+              <span className="home-text064">ROI</span>
+              <span className="home-text065">! </span>
             </p>
             <img
               alt="image"
               src="/My uploads/asset%201%20copy-1500h.png"
-              className="home-image01"
+              className="home-image"
             />
-            <p className="home-text034 Small">      Founder | Digital Guide</p>
-            <OutlineBlackButton
-              button="Choose A Plan"
-              rootClassName="outline-black-button-root-class-name"
-            ></OutlineBlackButton>
+            <p className="home-text066 Small">      Founder | Digital Guide</p>
+            <section className="home-empty2">
+              <div className="home-container19">
+                <a
+                  href="#sec3"
+                  className="home-button ButtonSmall newbutton button"
+                >
+                  Scroll to Next
+                </a>
+              </div>
+            </section>
           </div>
-          <div className="home-container06"></div>
+          <div className="home-container20"></div>
           <div className="home-logos">
-            <div className="home-container07">
-              <div className="home-container08">
-                <div className="home-container09">
+            <div className="home-container21">
+              <div className="home-container22">
+                <div className="home-container23">
                   <img
                     alt="image"
                     src="/logo-asana.svg"
-                    className="home-image02"
+                    className="home-image01"
                   />
                 </div>
-                <div className="home-container10">
+                <div className="home-container24">
                   <img
                     alt="image"
                     src="/logo-slack.svg"
+                    className="home-image02"
+                  />
+                </div>
+                <div className="home-container25">
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="home-image03"
                   />
                 </div>
-                <div className="home-container11">
-                  <img
-                    alt="image"
-                    src="/My uploads/reactlogo-200h.webp"
-                    className="home-image04"
-                  />
-                </div>
               </div>
-              <div className="home-container12">
-                <div className="home-container13">
+              <div className="home-container26">
+                <div className="home-container27">
                   <img
                     alt="image"
                     src="/logo-shopify.svg"
-                    className="home-image05"
+                    className="home-image04"
                   />
                 </div>
-                <div className="home-container14">
+                <div className="home-container28">
                   <img
                     alt="image"
                     src="/favicon%20new-200h.png"
-                    className="home-image06"
+                    className="home-image05"
                   />
                 </div>
-                <div className="home-container15">
+                <div className="home-container29">
                   <img
                     alt="image"
                     src="/logo-invision.svg"
-                    className="home-image07"
+                    className="home-image06"
                   />
                 </div>
               </div>
-              <div className="home-container16">
-                <div className="home-container17">
+              <div className="home-container30">
+                <div className="home-container31">
                   <img
                     alt="image"
                     src="/logo-attlasian.svg"
-                    className="home-image08"
+                    className="home-image07"
                   />
                 </div>
-                <div className="home-container18">
+                <div className="home-container32">
                   <img
                     alt="image"
                     src="/logo-weave.svg"
-                    className="home-image09"
+                    className="home-image08"
                   />
                 </div>
               </div>
@@ -295,277 +868,98 @@ const Home = (props) => {
           src="/My uploads/bottom1.svg"
           className="home-bottom-wave-image"
         />
-        <img alt="image" src="/waves-white.svg" className="home-image10" />
+        <img alt="image" src="/waves-white.svg" className="home-image09" />
         <img
           alt="image"
           src="/My uploads/top1.svg"
           className="home-top-wave-image"
         />
       </section>
-      <section className="home-container19">
-        <div className="home-container20">
-          <h1 className="home-text035">
-            <span>
-              Our Process,
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+      <section id="sec3" className="home-container33">
+        <div className="home-container34">
+          <h1 className="home-text067">
+            <span>Our Process</span>
             <br></br>
             <span>Your Progress</span>
           </h1>
-          <span className="home-text039">
+          <span className="home-text071">
             <span>
-              A journey from
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              Now is the time to act! With Digital Guide by your side, the
+              horizon is not the limit but just the beginning. Connect with us
+              and set sail towards your digital future.
             </span>
-            <span className="home-text041">vision to reality</span>
-            <span>, tailored for you!</span>
+            <br></br>
           </span>
-          <img
-            alt="image"
-            src="/My uploads/white%20bg234%20copy-1500h.png"
-            className="home-image11"
-          />
         </div>
-        <div className="home-container21">
-          <div className="home-container22">
-            <h2 className="home-text043">
-              A well-made website significantly enhances a business&apos;s
-              visibility, credibility, and sales potential!
-            </h2>
-            <p className="home-text044">
-              <a
-                href="https://www.careeraddict.com/business-website-benefits"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link"
-              >
-                84%
-              </a>
-              <span>
-                {' '}
-                of consumers believe
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text046">
-                businesses with websites are more credible
-              </span>
-              <span>
-                {' '}
-                than those without, showcasing the
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text048">
-                necessity of an online presence
-              </span>
-              <span> for credibility</span>
-              <a
-                href="https://www.careeraddict.com/business-website-benefits"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <br></br>
-              </a>
-              <span> </span>
+        <div className="home-stats">
+          <div className="home-stat">
+            <h1 className="home-text074">55+</h1>
+            <span className="home-text075">Delighted clients ツ</span>
+            <span className="home-text076">
+              <span>Your Happiness, Our Priority</span>
               <br></br>
+              <span>~ Crafting Smiles with Every Project~</span>
+            </span>
+          </div>
+          <div className="home-stat1">
+            <h1 className="home-text080">+35%</h1>
+            <span className="home-text081">Annual Growth Rate</span>
+            <span className="home-text082">
+              <span>Your Success, Our Mission</span>
               <br></br>
-              <a
-                href="https://www.businessdit.com/statistics-about-website/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                A website&apos;s design
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </a>
-              <span className="home-text054">
-                significantly influences a company&apos;s credibility
-              </span>
-              <span>
-                {' '}
-                for
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text056">75%</span>
-              <span>
-                {' '}
-                of users, underscoring the importance of a
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text058">professional online presence</span>
-              <span>
-                .
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://www.businessdit.com/statistics-about-website/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <br></br>
-              </a>
+              <span>~Growing Together, Year After Year~</span>
+            </span>
+          </div>
+          <div className="home-stat2">
+            <h1 className="home-text086">100+</h1>
+            <span className="home-text087">Successful Projects</span>
+            <span className="home-text088">
+              <span>Tailored for You</span>
               <br></br>
+              <span>~Bringing Your Vision to Life, Every Time~</span>
+            </span>
+          </div>
+          <div className="home-stat3">
+            <h1 className="home-text092">
+              <span>24/7</span>
               <br></br>
-              <span>
-                Additionally, a website&apos;s
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text064">24/7 accessibility</span>
-              <span className="home-text065">
-                ,
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text066">
-                high reach, showcasing capabilities, enhanced customer service,
-                and marketing potential
-              </span>
-              <span>
-                {' '}
-                are key to
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text068">business growth</span>
-              <span>
-                {' '}
-                and
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text070">
-                market presence establishment.
-              </span>
-            </p>
+            </h1>
+            <span className="home-text095">Customer Support</span>
+            <span className="home-text096">
+              <span>Your Peace of Mind, Our Commitment</span>
+              <br></br>
+              <span>~Support That&apos;s Always There for You~</span>
+            </span>
           </div>
         </div>
+        <PrimaryPinkButton
+          button="Scroll to Next"
+          rootClassName="primary-pink-button-root-class-name3"
+          className="home-component4"
+        ></PrimaryPinkButton>
       </section>
-      <div className="home-pricing">
-        <div className="home-container23">
-          <div className="home-card1">
-            <span className="home-text071">
-              <span>Starter</span>
-              <br></br>
-            </span>
-            <div className="home-container24">
-              <span className="home-text074">LKR</span>
-              <span className="home-text075">
-                <span className="home-text076"> </span>
-                <span>1200</span>
-              </span>
-              <span className="home-text078">/ monthly</span>
-            </div>
-            <span className="home-text079">
-              <span>Initial Payment:</span>
-              <br></br>
-              <span>- LKR 5,000 Development Payment</span>
-              <br></br>
-              <span>- LKR 5,000 LK Domain Name</span>
-              <br></br>
-              <span>Total = LKR 10,000/-</span>
-              <br></br>
-            </span>
-            <div className="home-container25">
-              <span className="home-text088">✔ .LK Domain Registration</span>
-              <span className="home-text089">✔ Up to 4 Custom pages </span>
-              <span className="home-text090">
-                ✔ Backups &amp; Advanced Security
-              </span>
-              <span className="home-text091">✔ Social Media Integration</span>
-              <span className="home-text092">✔ Responsive design</span>
-              <span className="home-text093">✔ UI/UX Best Practices</span>
-              <span className="home-text094">✔ SEO optimization</span>
-              <span className="home-text095">✔ Loading Speed Optimization</span>
-              <span className="home-text096">✔ Cloudflare integration </span>
-            </div>
-            <button className="home-button button">Learn More</button>
-          </div>
-          <div className="home-card2">
-            <span className="home-text097">Recommended</span>
-            <div className="home-container26">
-              <span className="home-text098">LKR</span>
-              <span className="home-text099"> 1500</span>
-              <span className="home-text100">/ monthly</span>
-            </div>
-            <span className="home-text101">
-              <span>Initial Payment:</span>
-              <br></br>
-              <span>- LKR 6,000 Development Payment</span>
-              <br></br>
-              <span>- LKR 5,000 LK Domain Name</span>
-              <br></br>
-              <span>Total = LKR 11,000/-</span>
-              <br></br>
-            </span>
-            <div className="home-container27">
-              <span className="home-text110">
-                ✔ All features of Starter plan
-              </span>
-              <span className="home-text111">✔ Up to Custom 6 pages</span>
-              <span className="home-text112">✔ Dedicated hosting</span>
-              <span className="home-text113">✔ Custom Email Address</span>
-              <span className="home-text114">
-                <span>✔ Basic E-Commerce Functionalities</span>
+      <div id="price" className="home-pricing">
+        <div className="home-container35">
+          <div className="home-container36">
+            <div className="home-card1">
+              <span className="home-text100">
+                <span>Starter</span>
                 <br></br>
               </span>
-              <span className="home-text117">
-                <span>✔ Advanced SEO Strategies</span>
+              <div className="home-container37">
+                <span className="home-text103">LKR</span>
+                <span className="home-text104">1200</span>
+                <span className="home-text105">/ monthly</span>
+              </div>
+              <span className="home-text106">
+                <span>Initial Payment:</span>
                 <br></br>
-              </span>
-              <span className="home-text120">
-                <span>✔ Email Marketing Setup</span>
                 <br></br>
-              </span>
-              <span className="home-text123">
-                <span>✔ Google Analytics Integration</span>
+                <span>Development Payment: LKR 4,000</span>
                 <br></br>
-              </span>
-              <span className="home-text126">
+                <span> Domain Name Payment: LKR 5,000</span>
+                <br></br>
                 <span>
-                  ✔ Priority support
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -573,63 +967,148 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-              </span>
-              <span className="home-text129">
-                <span>✔ Google Business Integration</span>
+                <span>Total: LKR 9,000</span>
                 <br></br>
               </span>
+              <div className="home-container38">
+                <span className="home-text118">✔ .LK Domain Registration</span>
+                <span className="home-text119">✔ Up to 4 Custom pages </span>
+                <span className="home-text120">
+                  ✔ Backups &amp; Advanced Security
+                </span>
+                <span className="home-text121">✔ Social Media Integration</span>
+                <span className="home-text122">✔ Highly Responsive design</span>
+                <span className="home-text123">✔ UI/UX Best Practices</span>
+                <span className="home-text124">✔ SEO optimization</span>
+                <span className="home-text125">
+                  ✔ Loading Speed Optimization
+                </span>
+                <span className="home-text126">✔ Cloudflare integration </span>
+              </div>
+              <button className="home-button1 button">Learn More</button>
             </div>
-            <button className="home-button1 button">Learn More</button>
-          </div>
-          <div className="home-card3">
-            <span className="home-text132">Premium</span>
-            <div className="home-container28">
-              <span className="home-text133">LKR</span>
-              <span className="home-text134"> 3000</span>
-              <span className="home-text135">
-                <span>/ monthly</span>
+            <div className="home-card2">
+              <span className="home-text127">Recommended</span>
+              <div className="home-container39">
+                <span className="home-text128">LKR</span>
+                <span className="home-text129">1500</span>
+                <span className="home-text130">/ monthly</span>
+              </div>
+              <span className="home-text131">
+                <span>Initial Payment:</span>
+                <br></br>
+                <br></br>
+                <span>Development Payment: LKR 5,000</span>
+                <br></br>
+                <span>
+                  Domain Name Payment: LKR 5,000
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <br></br>
+                <span> Total: LKR 10,000</span>
+                <br></br>
               </span>
+              <div className="home-container40">
+                <span className="home-text142">
+                  ✔ All features of Starter plan
+                </span>
+                <span className="home-text143">✔ Up to Custom 6 pages</span>
+                <span className="home-text144">✔ Dedicated hosting</span>
+                <span className="home-text145">✔ Custom Email Address</span>
+                <span className="home-text146">
+                  <span>✔ Basic E-Commerce Functionalities</span>
+                  <br></br>
+                </span>
+                <span className="home-text149">
+                  <span>✔ Advanced SEO Strategies</span>
+                  <br></br>
+                </span>
+                <span className="home-text152">
+                  <span>✔ Email Marketing Setup</span>
+                  <br></br>
+                </span>
+                <span className="home-text155">
+                  <span>✔ Google Analytics Integration</span>
+                  <br></br>
+                </span>
+                <span className="home-text158">
+                  <span>
+                    ✔ Priority support
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                </span>
+                <span className="home-text161">
+                  <span>✔ Google Business Integration</span>
+                  <br></br>
+                </span>
+              </div>
+              <button className="home-button2 button">Learn More</button>
             </div>
-            <span className="home-text137">
-              <span>Initial Payment:</span>
-              <br></br>
-              <span>- LKR 20,000 Development Payment</span>
-              <br></br>
-              <span>- LKR 5,000/ LK Domain Name</span>
-              <br></br>
-              <span>Total = LKR 25,000/-</span>
-              <br></br>
-            </span>
-            <div className="home-container29">
-              <span className="home-text146">
-                ✔ All features of Recommended plan
+            <div className="home-card3">
+              <span className="home-text164">Premium</span>
+              <div className="home-container41">
+                <span className="home-text165">LKR</span>
+                <span className="home-text166">3000</span>
+                <span className="home-text167">
+                  <span>/ monthly</span>
+                </span>
+              </div>
+              <span className="home-text169">
+                <span>Initial Payment:</span>
+                <br></br>
+                <br></br>
+                <span>Development Payment: LKR 10,000</span>
+                <br></br>
+                <span>Domain Name Payment: LKR 5,000</span>
+                <br></br>
+                <br></br>
+                <span>Total: LKR 15,000</span>
               </span>
-              <span className="home-text147">✔ Additional upto 10 pages</span>
-              <span className="home-text148">
-                ✔ Advanced e-commerce solutions
-              </span>
-              <span className="home-text149">✔ Personalized SEO strategy</span>
-              <span className="home-text150">
-                ✔ Premium Analytics with Monthly Report
-              </span>
-              <span className="home-text151">✔ Premium analytics</span>
-              <span className="home-text152">
-                ✔ 24/7 premium support
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text153">✔ Custom Feature Development</span>
-              <span className="home-text154">
-                ✔ Payment Gateway Integration
-              </span>
-              <span className="home-text155">
-                ✔ Free International Domain Name
-              </span>
+              <div className="home-container42">
+                <span className="home-text179">
+                  ✔ All features of Recommended plan
+                </span>
+                <span className="home-text180">✔ Additional upto 10 pages</span>
+                <span className="home-text181">
+                  ✔ Advanced e-commerce solutions
+                </span>
+                <span className="home-text182">
+                  ✔ Personalized SEO strategy
+                </span>
+                <span className="home-text183">
+                  ✔ Premium Analytics with Monthly Report
+                </span>
+                <span className="home-text184">✔ Premium analytics</span>
+                <span className="home-text185">
+                  ✔ 24/7 premium support
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text186">
+                  ✔ Custom Feature Development
+                </span>
+                <span className="home-text187">
+                  ✔ Payment Gateway Integration
+                </span>
+                <span className="home-text188">
+                  ✔ Free International Domain Name
+                </span>
+              </div>
+              <button className="home-button3 button">Learn More</button>
             </div>
-            <button className="home-button2 button">Learn More</button>
           </div>
         </div>
       </div>

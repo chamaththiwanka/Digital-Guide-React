@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import SecondaryButton from '../components/secondary-button'
-import FooterGray from '../components/footer-gray'
+import Footer from '../components/footer'
 import './coming-soon.css'
 
 const ComingSoon = (props) => {
@@ -30,13 +30,45 @@ const ComingSoon = (props) => {
       <div className="coming-soon-container1">
         <div className="coming-soon-main">
           <div className="coming-soon-container2">
-            <h1 className="coming-soon-text HeadingOne">You Work With</h1>
-            <h1 className="coming-soon-text1">Soft Design System</h1>
-            <p className="coming-soon-text2 Lead">
-              <span className="coming-soon-text3">
-                The time is now for it be okay to be great. Subscribe now and
-                get notified when it&apos;s launched!
+            <h3 className="coming-soon-text">The Next Chapter Awaits</h3>
+            <h1 className="coming-soon-text01">Embrace the Anticipation</h1>
+            <p className="coming-soon-text02">
+              <span>
+                Our website is currently undergoing development and updates
               </span>
+              <br></br>
+              <span>
+                to bring you an even
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="coming-soon-text06">better experience</span>
+              <span>
+                .
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                We can&apos;t wait to share our latest innovations with you.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <br></br>
+              <span className="coming-soon-text12">Stay tuned</span>
+              <span className="coming-soon-text13"> for our grand reveal!</span>
+              <br className="coming-soon-text14"></br>
+              <br></br>
             </p>
             <div className="coming-soon-container3">
               <input
@@ -44,7 +76,7 @@ const ComingSoon = (props) => {
                 placeholder="Email here"
                 className="coming-soon-textinput Small input"
               />
-              <SecondaryButton button="Subscribe"></SecondaryButton>
+              <SecondaryButton button="Get notified"></SecondaryButton>
             </div>
           </div>
           <div className="coming-soon-grid">
@@ -131,7 +163,7 @@ const ComingSoon = (props) => {
           </div>
         </div>
       </div>
-      <FooterGray></FooterGray>
+      <Footer rootClassName="footer-root-class-name1"></Footer>
     </div>
   )
 }

@@ -5,8 +5,9 @@
 .next-button-button {
   color: var(--dl-color-blue-500);
   display: flex;
+  align-self: center;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
   border-width: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -15,14 +16,15 @@
   background-color: transparent;
 }
 .next-button-text {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-right: var(--dl-space-space-halfunit);
 }
 .next-button-icon {
   fill: var(--dl-color-blue-500);
   width: var(--dl-size-size-unit);
-  height: var(--dl-size-size-unit);
+  height: auto;
   transition: 0.3s;
+  padding-top: 0px;
 }
 .next-button-icon:hover {
   transform: translateX(5px);

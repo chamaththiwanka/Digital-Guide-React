@@ -9,7 +9,7 @@ import {
 
 import './style.css'
 import ComingSoon from './views/coming-soon'
-import Profile from './views/profile'
+import Connect from './views/connect'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
@@ -18,7 +18,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={ComingSoon} exact path="/coming-soon" />
-        <Route component={Profile} exact path="/profile" />
+        <Route component={Connect} exact path="/connect" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

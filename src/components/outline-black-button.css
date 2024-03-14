@@ -17,18 +17,3 @@
 .outline-black-button-button:hover {
   transform: scale(1.02);
 }
-.outline-black-button-root-class-name {
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-doubleunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: 0px;
-}
-@media(max-width: 1200px) {
-  .outline-black-button-root-class-name {
-    align-self: flex-start;
-    margin-top: var(--dl-space-space-doubleunit);
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-  }
-}

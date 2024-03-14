@@ -11,7 +11,7 @@
   --dl-color-pink-700: #cb0c9fff;
   --dl-size-size-unit: 1rem;
   --dl-color-gray-black: #000000;
-  --dl-color-gray-white: #FFFFFF;
+  --dl-color-gray-white: #fafafaff;
   --dl-space-space-unit: 1rem;
   --dl-color-primary-100: #c172d5ff;
   --dl-color-primary-500: #ac43c7ff;
@@ -32,6 +32,7 @@
   --dl-radius-radius-radius1: 1rem;
   --dl-radius-radius-radius5: 0.5rem;
   --dl-space-space-fourunits: 4rem;
+  --dl-color-gray-shadedwhite: #fafafaff;
   --dl-radius-radius-radius40: 40px;
   --dl-radius-radius-radius75: 0.75rem;
   --dl-size-size-unitandahalf: 1.5rem;
@@ -48,13 +49,17 @@
 }
 .button {
   color: var(--dl-color-secondary-400);
+  cursor: default;
   display: inline-block;
   padding: 0.5rem 1rem;
+  transition: transform 0.3s ease;
   font-family: Open Sans;
-  border-color: var(--dl-color-secondary-400);
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+.button:hover {
+  transform: scale(1.07);
 }
 .list {
   width: 100%;
@@ -86,6 +91,89 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+.newbutton {
+  color: #fafafa;
+  outline: none;
+  background: linear-gradient( 310deg ,#7928ca,#ff0080);
+  box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
+  transition: all .15s ease-in;
+  padding-top: var(--dl-space-space-triplequarterunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unitandahalfunit);
+  border-radius: 1.875rem;
+  padding-right: var(--dl-space-space-unitandahalfunit);
+  padding-bottom: var(--dl-space-space-triplequarterunit);
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+}
+.newbutton:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.card {
+  color: var(--card-font-color);
+  width: 100%;
+  border: 2px solid var(--card-border-color);
+  cursor: pointer;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  position: relative;
+  font-size: 16px;
+  max-width: 300px;
+  min-width: 200px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s ease;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  -card-bg-color: #292929;
+  flex-direction: column;
+  justify-content: center;
+  -card-font-color: white;
+  background-color: var(--card-bg-color);
+  -card-border-color: rgba(7, 7, 7, 0.12);
+  -icon-gradient-end: #ff48fb;
+  -icon-gradient-start: #7eaaff;
+}
+.card:hover {
+  height: 270px;
+}
+.icon {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  max-width: 80px;
+  transition: all 0.8s ease;
+  align-items: center;
+  border-radius: 100%;
+  background-size: 200px;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  background-position: 0px;
+}
+.title {
+  margin-top: 30px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.text {
+  opacity: 0;
+  font-size: 13px;
+  margin-top: 20px;
+  max-height: 0;
+  transition: all 0.3s ease;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.cardhov {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .Small {
   font-size: 0.875rem;
@@ -168,3 +256,7 @@
   letter-spacing: -0.025rem;
   text-transform: uppercase;
 }
+
+
+
+

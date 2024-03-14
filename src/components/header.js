@@ -28,7 +28,7 @@ const Header = (props) => {
             <Link to="/" className="header-navlink1 Large">
               Home
             </Link>
-            <Link to="/profile" className="header-navlink2 Large">
+            <Link to="/connect" className="header-navlink2 Large">
               Profile
             </Link>
             <Link to="/coming-soon" className="header-navlink3 Large">
@@ -60,16 +60,16 @@ const Header = (props) => {
           </svg>
         </div>
         <div className="header-menu1">
-          <Link to="/" className="header-link Large">
+          <Link to="/" className="header-link">
             Home
           </Link>
-          <Link to="/coming-soon" className="header-navlink5 Large">
+          <Link to="/coming-soon" className="header-navlink5">
             Why choose us?
           </Link>
-          <Link to="/coming-soon" className="header-navlink6 Large">
+          <Link to="/coming-soon" className="header-navlink6">
             Plans for you!
           </Link>
-          <Link to="/coming-soon" className="header-navlink7 Large">
+          <Link to="/connect" className="header-navlink7">
             Connect
           </Link>
           <PrimaryPinkButton
@@ -79,6 +79,9 @@ const Header = (props) => {
           ></PrimaryPinkButton>
         </div>
       </nav>
+      <header data-role="Header" className="header-header1">
+        <span className="header-text">{props.text}</span>
+      </header>
     </div>
   )
 }
@@ -89,6 +92,7 @@ Header.defaultProps = {
   imageAlt: 'image',
   imageAlt1: 'image',
   imageSrc1: '/favicon%20new-1500h.png',
+  text: 'Text',
 }
 
 Header.propTypes = {
@@ -97,6 +101,7 @@ Header.propTypes = {
   imageAlt: PropTypes.string,
   imageAlt1: PropTypes.string,
   imageSrc1: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default Header

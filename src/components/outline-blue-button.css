@@ -3,19 +3,26 @@
   position: relative;
 }
 .outline-blue-button-button {
-  color: var(--dl-color-blue-500);
+  color: var(--dl-color-gray-500);
   cursor: pointer;
+  font-size: 0.75rem;
   background: white;
+  font-style: normal;
   transition: all .15s ease-in;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.4;
   padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-blue-500);
+  border-color: var(--dl-color-gray-500);
   border-width: 1px;
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: var(--dl-radius-radius-radius5);
   padding-right: var(--dl-space-space-doubleunit);
+  letter-spacing: -0.025rem;
   padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
   background-color: transparent;
 }
-.outline-blue-button-button:hover {
-  transform: scale(1.02);
+.outline-blue-button-root-class-name {
+  margin-left: var(--dl-space-space-doubleunit);
 }

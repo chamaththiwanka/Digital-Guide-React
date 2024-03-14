@@ -1,0 +1,62 @@
+.hover-card-container {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hover-card-container1 {
+  top: 26px;
+  left: 27px;
+  color: var(--dl-color-gray-shadedwhite);
+  right: 27px;
+  width: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: var(--dl-color-secondary-600);
+}
+
+.hover-card-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hover-card-icon {
+  fill: var(--dl-color-gray-shadedwhite);
+  width: 50px;
+  height: 50px;
+}
+.hover-card-text {
+  color: var(--dl-color-gray-shadedwhite);
+  width: 100%;
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.hover-card-text1 {
+  top: 218px;
+  left: 0px;
+  color: var(--dl-color-gray-shadedwhite);
+  right: 0px;
+  width: 80%;
+  margin: auto;
+  opacity: 00;
+  z-index: 2;
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
