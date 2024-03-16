@@ -23,7 +23,7 @@ const BlogCard = (props) => {
 BlogCard.defaultProps = {
   imageAlt: 'image',
   description:
-    'Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover',
+    'Tech Titans Japura Blog Card',
   newProp: 'Rover raised $65 million',
   imageSrc:
     'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-bags.jpg',
